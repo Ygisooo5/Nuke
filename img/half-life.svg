@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" font-family="Arial, sans-serif" font-size="14">
+  <rect width="600" height="300" fill="#ffffff"/>
+  <!-- оси -->
+  <line x1="60" y1="250" x2="570" y2="250" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="60" y1="250" x2="60" y2="20" stroke="#2c3e50" stroke-width="2"/>
+  <text x="555" y="270">t</text>
+  <text x="35" y="30">N</text>
+  <!-- кривая N0*2^(-t/T), T = 110px, N0 = 200px -->
+  <path d="M60,50 C 100,95 130,125 170,150 S 240,190 280,200 S 350,220 390,225 S 470,235 560,243" fill="none" stroke="#e74c3c" stroke-width="3"/>
+  <!-- пунктиры -->
+  <g stroke="#7f8c8d" stroke-dasharray="4 4">
+    <line x1="60" y1="150" x2="170" y2="150"/><line x1="170" y1="150" x2="170" y2="250"/>
+    <line x1="60" y1="200" x2="280" y2="200"/><line x1="280" y1="200" x2="280" y2="250"/>
+    <line x1="60" y1="225" x2="390" y2="225"/><line x1="390" y1="225" x2="390" y2="250"/>
+  </g>
+  <text x="15" y="55">N₀</text>
+  <text x="10" y="155">N₀/2</text>
+  <text x="10" y="205">N₀/4</text>
+  <text x="10" y="230">N₀/8</text>
+  <text x="163" y="270">T</text>
+  <text x="268" y="270">2T</text>
+  <text x="378" y="270">3T</text>
+</svg>
